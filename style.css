@@ -1,0 +1,19 @@
+h3{
+    font-size: 30px !important;
+ font-family: 'Cookie', cursive;
+}
+
+.btn-success:hover{
+background-color: darkcyan;
+color: darkturquoise;
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 30px aqua;}
+    to {box-shadow: 1px 1px 35px lime;}
+}
